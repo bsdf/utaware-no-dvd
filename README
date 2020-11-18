@@ -1,0 +1,11 @@
+this is a no dvd patch for the v1.1 mirror moon english translation of
+utawarerumono. both an xdelta3 patch and patcher source are provided.
+
+USAGE:
+
+> xdelta3 -d -s utaware-dvd.exe utaware-dvd.exe.xdelta3 utaware-no-dvd.exe
+
+or
+
+> gcc -o utaware-no-dvd utaware-no-dvd.c
+> ./utaware-no-dvd utaware-dvd.exe
